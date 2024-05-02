@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1e40af"
-      }
+      },
+      "package": "com.kaakka.asaas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9217731a-ddb9-4c93-971f-c34f3ac579e8"
+      }
     }
   }
 }
