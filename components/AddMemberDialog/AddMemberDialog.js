@@ -49,7 +49,7 @@ const AddMemberDialog = ({visible, onDismiss, onSave}) => {
             </Dialog.Content>
             <Dialog.Actions>
               <Button style={styles.btn} onPress={handleDismiss}>Cancel</Button>
-              <Button style={styles.btn} mode='contained'  onPress={handleOnSave}>Create</Button>
+              <Button style={styles.btn} mode='contained'  onPress={handleOnSave}>Add</Button>
             </Dialog.Actions>
           </Dialog>
     </Portal>
